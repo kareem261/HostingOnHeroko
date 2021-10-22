@@ -14,7 +14,7 @@ class TestApiController extends Controller
         $this->database = $database;
     }
 
-    public function add_contact(Request $request){
+    public function index(Request $request){
 
         $ref_tablename='contacts';
         $postData = [

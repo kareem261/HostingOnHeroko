@@ -20,7 +20,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 //kda lw 3mlt call ll api def hyrg3ly el response el feh el controller el fe el method bta3t firstApi
-Route::post('create-contact',[TestApiController::class,'add_contact']);
+Route::post('create-contact',[TestApiController::class,'index']);
 
 
 ?>
